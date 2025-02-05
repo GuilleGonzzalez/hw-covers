@@ -1,6 +1,6 @@
 # Covers
 
-![](./resources/3d.png)
+![PCB 3D](./resources/3d.png)
 
 ## Description
 
@@ -14,7 +14,7 @@ The board is powered with a 230VAC power supply.
 
 ## Microprocessor
 
-Espressif [ESP32-S2-SOLO](https://www.espressif.com/en/products/modules) module (NRND).
+Espressif [ESP32-S3-WROOM](https://www.espressif.com/en/products/modules) module.
 
 ## LEDs
 
@@ -28,7 +28,7 @@ Espressif [ESP32-S2-SOLO](https://www.espressif.com/en/products/modules) module 
 
 ## Enclosure (WIP)
 
-* Custom made in [Fusion 360](https://www.autodesk.es/products/fusion-360/overview).
+* Custom made.
 
 ## Changelog
 
@@ -36,17 +36,15 @@ All notable changes to this project will be documented in this section.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
-## [2.0.0] - 202X-XX-XX
+### [Unreleased]
 
-### Fix
+### [1.0.0] - 2025-02-05
 
-## [1.0.0] - 202X-XX-XX
+First release
 
-### Added
+#### Added
 
-* xx
-* xx
+* x5 covers
 
 [Unreleased]: https://github.com/GuilleGonzzalez/hw-covers
 [1.0.0]: https://github.com/GuilleGonzzalez/hw-covers
-[2.0.0]: https://github.com/GuilleGonzzalez/hw-covers
