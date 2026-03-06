@@ -529,6 +529,36 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "Net-(C15-Pad2)": [
+        "Mains"
+      ],
+      "Net-(C16-Pad2)": [
+        "Mains"
+      ],
+      "Net-(C17-Pad2)": [
+        "Mains"
+      ],
+      "Net-(C18-Pad2)": [
+        "Mains"
+      ],
+      "Net-(C19-Pad2)": [
+        "Mains"
+      ],
+      "Net-(C20-Pad2)": [
+        "Mains"
+      ],
+      "Net-(C21-Pad2)": [
+        "Mains"
+      ],
+      "Net-(C22-Pad2)": [
+        "Mains"
+      ],
+      "Net-(C23-Pad2)": [
+        "Mains"
+      ],
+      "Net-(C24-Pad2)": [
+        "Mains"
+      ],
       "Net-(K11-Pad1)": [
         "Mains"
       ],
@@ -556,7 +586,7 @@
       },
       {
         "netclass": "Mains",
-        "pattern": "/OUT.*"
+        "pattern": "/OUT.*_UP"
       },
       {
         "netclass": "Power",
@@ -573,6 +603,10 @@
       {
         "netclass": "Mains",
         "pattern": "/LF"
+      },
+      {
+        "netclass": "Mains",
+        "pattern": "/OUT.*_DN"
       }
     ]
   },

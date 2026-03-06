@@ -5637,7 +5637,7 @@
 		(uuid "1e0b52eb-2336-44e2-8a58-20c44bf11160")
 	)
 	(label "OUT3_UP"
-		(at 132.08 71.12 90)
+		(at 129.54 71.12 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5777,7 +5777,7 @@
 		(uuid "40aa2bf1-a7ff-4e6f-8941-528c01c02600")
 	)
 	(label "OUT4_UP"
-		(at 121.92 71.12 90)
+		(at 119.38 71.12 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5927,7 +5927,7 @@
 		(uuid "6bba9df2-39c3-496a-b90d-1fa88235fc71")
 	)
 	(label "OUT5_UP"
-		(at 116.84 71.12 90)
+		(at 114.3 71.12 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5937,7 +5937,7 @@
 		(uuid "6d4c397e-356d-4384-9cfe-35545d515f47")
 	)
 	(label "OUT3_DN"
-		(at 129.54 71.12 90)
+		(at 132.08 71.12 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5947,7 +5947,7 @@
 		(uuid "6eaf4131-b9ed-4bda-b186-daeb955b7e0e")
 	)
 	(label "OUT2_DN"
-		(at 134.62 71.12 90)
+		(at 137.16 71.12 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6217,7 +6217,7 @@
 		(uuid "b9b99aab-9537-4b09-81fe-956e48bb4bc3")
 	)
 	(label "OUT4_DN"
-		(at 119.38 71.12 90)
+		(at 121.92 71.12 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6237,7 +6237,7 @@
 		(uuid "c1948337-8950-4faf-ba19-134789fa18cd")
 	)
 	(label "OUT1_DN"
-		(at 144.78 71.12 90)
+		(at 147.32 71.12 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6257,7 +6257,7 @@
 		(uuid "c4fdd220-bea1-46ed-ab52-970369ba8d31")
 	)
 	(label "OUT1_UP"
-		(at 147.32 71.12 90)
+		(at 144.78 71.12 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6307,7 +6307,7 @@
 		(uuid "d2556d06-f3d6-4d74-9829-85d216676f53")
 	)
 	(label "OUT5_DN"
-		(at 114.3 71.12 90)
+		(at 116.84 71.12 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6597,7 +6597,7 @@
 		(uuid "fed83c55-7054-4832-80e6-7c290c765a64")
 	)
 	(label "OUT2_UP"
-		(at 137.16 71.12 90)
+		(at 134.62 71.12 90)
 		(effects
 			(font
 				(size 1.27 1.27)
