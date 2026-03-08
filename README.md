@@ -125,3 +125,4 @@ First release
 [Unreleased]: https://github.com/GuilleGonzzalez/hw-covers
 [1.0.0]: https://github.com/GuilleGonzzalez/hw-covers/tree/v1.0.0
 [1.1.0]: https://github.com/GuilleGonzzalez/hw-covers/tree/v1.1.0
+[2.0.0]: https://github.com/GuilleGonzzalez/hw-covers/tree/v0.0.0
