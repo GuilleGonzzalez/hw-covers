@@ -4388,6 +4388,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 115.57) (xy 213.36 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0561b422-5940-45b9-8931-7652dd7e65e5")
+	)
+	(wire
+		(pts
 			(xy 85.09 168.91) (xy 74.93 168.91)
 		)
 		(stroke
@@ -5528,6 +5538,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 102.87) (xy 243.84 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f46d1872-a1ca-4088-911b-c3216b3516e3")
+	)
+	(wire
+		(pts
 			(xy 143.51 161.29) (xy 133.35 161.29)
 		)
 		(stroke
@@ -5617,7 +5637,7 @@
 		(uuid "1a0e9c99-78a7-4c04-9463-94e54225db80")
 	)
 	(label "1IN1"
-		(at 205.74 118.11 0)
+		(at 205.74 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5667,7 +5687,7 @@
 		(uuid "23bfe3cf-0579-44a4-aeef-6522b2ea2a61")
 	)
 	(label "EXT1"
-		(at 205.74 95.25 0)
+		(at 205.74 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5707,12 +5727,12 @@
 		(uuid "29f4366d-fffb-4747-86ea-89ea0d5c013c")
 	)
 	(label "DIR3"
-		(at 205.74 102.87 0)
+		(at 251.46 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "2ab4b0bc-bdf3-4f3b-adf7-5e8df0ccb4c4")
 	)
@@ -5727,17 +5747,17 @@
 		(uuid "2ee4227c-1a6e-4ecd-8786-e9bbb301f2e0")
 	)
 	(label "OUT2"
-		(at 251.46 87.63 180)
+		(at 205.74 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "361722e7-0795-40eb-8cab-e7ee93c7b71c")
 	)
 	(label "5IN2"
-		(at 205.74 85.09 0)
+		(at 205.74 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5757,7 +5777,7 @@
 		(uuid "3c2b3f9a-684f-4b05-9e6e-a85e5a8a324d")
 	)
 	(label "OUT3"
-		(at 251.46 85.09 180)
+		(at 251.46 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5767,7 +5787,7 @@
 		(uuid "3d7b2edb-2936-4f0f-8d42-18be6b454608")
 	)
 	(label "DIR1"
-		(at 205.74 107.95 0)
+		(at 205.74 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5817,12 +5837,12 @@
 		(uuid "4b2ccf3c-19e6-4145-b0c0-9f90360f0589")
 	)
 	(label "DIR2"
-		(at 251.46 90.17 180)
+		(at 205.74 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "4be5e03e-94d3-458c-bb8c-a08658139da7")
 	)
@@ -5837,7 +5857,7 @@
 		(uuid "54f6462f-431d-48a6-a0b0-c0ee983062b2")
 	)
 	(label "3IN1"
-		(at 251.46 105.41 180)
+		(at 251.46 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5857,7 +5877,7 @@
 		(uuid "55d7a932-a2f0-4049-b007-8fd8485b0639")
 	)
 	(label "OUT1"
-		(at 205.74 105.41 0)
+		(at 205.74 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5897,7 +5917,7 @@
 		(uuid "5dedff77-6ed1-4722-b2cc-6f00b7bcb50b")
 	)
 	(label "3IN2"
-		(at 251.46 107.95 180)
+		(at 251.46 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6007,7 +6027,7 @@
 		(uuid "801604ac-444b-4735-8bf1-8ebaaee65822")
 	)
 	(label "LED1"
-		(at 205.74 110.49 0)
+		(at 205.74 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6037,7 +6057,7 @@
 		(uuid "8b61a3ec-e078-4e90-889b-2c2efa9b203c")
 	)
 	(label "5IN1"
-		(at 205.74 87.63 0)
+		(at 205.74 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6047,7 +6067,7 @@
 		(uuid "8cf6bf54-3dd7-4ce9-a6a1-3a8c73a1c98d")
 	)
 	(label "LED2"
-		(at 205.74 113.03 0)
+		(at 205.74 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6067,7 +6087,7 @@
 		(uuid "8e313e95-5656-4ec7-81ad-993b9e9f0d14")
 	)
 	(label "4IN2"
-		(at 251.46 113.03 180)
+		(at 251.46 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6077,12 +6097,12 @@
 		(uuid "9682eec1-5ec8-45ec-9573-9186e9e4383b")
 	)
 	(label "DIR5"
-		(at 205.74 120.65 0)
+		(at 251.46 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "976c13c6-fdee-412e-aac9-2ac54d3dd196")
 	)
@@ -6177,7 +6197,7 @@
 		(uuid "acca7282-2037-4ffc-a9b4-e9cacda48956")
 	)
 	(label "EXT2"
-		(at 205.74 92.71 0)
+		(at 205.74 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6317,7 +6337,7 @@
 		(uuid "d304115f-ebaf-4461-a02a-99acdf981d01")
 	)
 	(label "OUT5"
-		(at 205.74 100.33 0)
+		(at 205.74 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6387,12 +6407,12 @@
 		(uuid "deff8cc5-3151-4434-ab24-3bfe47c0281d")
 	)
 	(label "OUT4"
-		(at 205.74 123.19 0)
+		(at 251.46 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "df94e149-b04f-4464-93b5-087b393be192")
 	)
@@ -6407,22 +6427,22 @@
 		(uuid "e07ed4c2-9831-4104-843b-1356c784686d")
 	)
 	(label "DIR4"
-		(at 251.46 82.55 180)
+		(at 205.74 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "e242621f-1d0b-40ba-a5a9-e17ae9e961b7")
 	)
 	(label "1IN2"
-		(at 251.46 92.71 180)
+		(at 205.74 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "e2c9fbbe-2a76-415a-b46a-69bcecff5c1c")
 	)
@@ -6457,7 +6477,7 @@
 		(uuid "e925e3d0-9140-46ba-bc3f-c50b25a29dd2")
 	)
 	(label "2IN2"
-		(at 251.46 123.19 180)
+		(at 251.46 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6537,7 +6557,7 @@
 		(uuid "f75243d9-228d-44f2-8450-257a55ed3368")
 	)
 	(label "2IN1"
-		(at 251.46 120.65 180)
+		(at 251.46 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6587,7 +6607,7 @@
 		(uuid "fe44a3ac-3ca2-411a-8c49-04075ebc7d5f")
 	)
 	(label "4IN1"
-		(at 251.46 110.49 180)
+		(at 251.46 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8343,7 +8363,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 243.84 102.87 270)
+		(at 251.46 102.87 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8351,7 +8371,7 @@
 		(dnp no)
 		(uuid "5adbf30b-57f2-4989-9561-caecbe074a06")
 		(property "Reference" "TP2"
-			(at 249.936 102.362 90)
+			(at 257.556 102.362 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8359,7 +8379,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 247.142 105.41 90)
+			(at 254.762 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8368,7 +8388,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 243.84 107.95 0)
+			(at 251.46 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8377,7 +8397,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 243.84 107.95 0)
+			(at 251.46 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8386,7 +8406,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 243.84 102.87 0)
+			(at 251.46 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10716,7 +10736,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 213.36 115.57 90)
+		(at 251.46 123.19 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10724,7 +10744,7 @@
 		(dnp no)
 		(uuid "ee8b2bb0-725a-460a-b749-311b81a9567d")
 		(property "Reference" "TP1"
-			(at 207.264 114.808 90)
+			(at 257.556 123.952 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10732,7 +10752,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 210.058 113.03 90)
+			(at 254.762 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10741,7 +10761,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 213.36 110.49 0)
+			(at 251.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10750,7 +10770,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 110.49 0)
+			(at 251.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10759,7 +10779,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 213.36 115.57 0)
+			(at 251.46 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
