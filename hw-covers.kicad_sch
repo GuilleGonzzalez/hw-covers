@@ -4192,17 +4192,6 @@
 		)
 		(uuid "365bf183-28c7-44c0-bdf3-03a7b342c55f")
 	)
-	(text "TODOs:\nRevisar resistencias entrada"
-		(exclude_from_sim no)
-		(at 177.8 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4e184dde-4d1b-4f65-b3de-ad71523819d8")
-	)
 	(text "Supply"
 		(exclude_from_sim no)
 		(at 28.448 22.86 0)

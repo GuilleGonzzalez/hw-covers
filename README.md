@@ -20,35 +20,49 @@ Espressif [ESP32-S3-WROOM](https://www.espressif.com/en/products/modules) module
 
 2 user LEDs. Functionality to define
 
+## Relay Mode
+
+**Circuit Safe**
+* Relay1: ON/OFF
+* Relay2: UP/DOWN
+
+A RC snubber has been added for all relays to absorb voltage spikes
+
+## Tasmota config
+
+An example template will be uploaded when configured.
+
 ## Pin assignment
 
 | PIN     | Func    |
 | ------- | ------- |
-| 1OUT1   | GPIO10  |
-| 1OUT2   | GPIO09  |
-| 2OUT1   | GPIO20  |
-| 2OUT2   | GPIO19  |
-| 3OUT1   | GPIO08  |
-| 3OUT2   | GPIO18  |
-| 4OUT1   | GPIO17  |
-| 4OUT2   | GPIO16  |
-| 5OUT1   | GPIO15  |
-| 5OUT2   | GPIO07  |
-| 1IN1    | GPIO14  |
-| 1IN2    | GPIO21  |
-| 2IN1    | GPIO47  |
-| 2IN2    | GPIO48  |
-| 3IN1    | GPIO39  |
-| 3IN2    | GPIO40  |
-| 4IN1    | GPIO41  |
-| 4IN2    | GPIO42  |
-| 5IN1    | GPIO02  |
-| 5IN2    | GPIO01  |
+| OUT1    | GPIO12  |
+| DIR1    | GPIO11  |
+| OUT2    | GPIO14  |
+| DIR2    | GPIO13  |
+| OUT3    | GPIO47  |
+| DIR3    | GPIO21  |
+| OUT4    | GPIO18  |
+| DIR4    | GPIO08  |
+| OUT5    | GPIO16  |
+| DIR5    | GPIO17  |
+| 1IN1    | GPIO09  |
+| 1IN2    | GPIO10  |
+| 2IN1    | GPIO19  |
+| 2IN2    | GPIO20  |
+| 3IN1    | GPIO40  |
+| 3IN2    | GPIO39  |
+| 4IN1    | GPIO42  |
+| 4IN2    | GPIO41  |
+| 5IN1    | GPIO01  |
+| 5IN2    | GPIO02  |
 | IR      | GPIO06  |
-| LED1    | GPIO11  |
-| LED2    | GPIO12  |
+| LED1    | GPIO15  |
+| LED2    | GPIO07  |
+| EXT1    | GPIO04  |
+| EXT2    | GPIO05  |
 
-## Enclosure (WIP)
+## Enclosure
 
 * Custom made.
 
@@ -60,9 +74,28 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ### [Unreleased]
 
+### [2.0.0] - 2026-03-08
+
+Solved relay issue
+
+#### Add
+
+* Add RC snubbers
+* Add schematic hierarchicals sheets
+
+#### Fix
+
+* Change relays from 5A to 10A
+* Change relay config to hardware-safe (output and direction) using form-C relays
+
+#### Changed
+
+* Change input resistor from 10k to 1k5
+* Change ESP pin assignment
+
 ### [1.1.0] - 2025-02-28
 
-First release
+Bug fixes
 
 #### Add
 
