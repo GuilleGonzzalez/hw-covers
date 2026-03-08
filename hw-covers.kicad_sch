@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Covers")
-		(date "2025-02-28")
-		(rev "Rev 1.1")
+		(date "2026-03-08")
+		(rev "Rev 2.0")
 		(company "Guille González")
 	)
 	(lib_symbols
