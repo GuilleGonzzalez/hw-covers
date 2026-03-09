@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Covers")
-		(date "2026-03-08")
-		(rev "Rev 2.0")
+		(date "2026-03-09")
+		(rev "Rev 2.1")
 		(company "Guille González")
 	)
 	(lib_symbols
@@ -4777,7 +4777,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 110.49) (xy 128.27 110.49)
+			(xy 111.76 110.49) (xy 118.11 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4794,6 +4794,16 @@
 			(type default)
 		)
 		(uuid "52993d0b-50c9-4b7e-9d06-33a0c93de46a")
+	)
+	(wire
+		(pts
+			(xy 125.73 110.49) (xy 128.27 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53078f03-06c0-4659-84f3-fa5abb1b7c3d")
 	)
 	(wire
 		(pts
@@ -6126,7 +6136,7 @@
 		(uuid "9fe193e1-55aa-4b72-8afd-980ec162d78c")
 	)
 	(label "IR"
-		(at 123.19 110.49 0)
+		(at 111.76 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7026,6 +7036,73 @@
 			(project "hw-covers"
 				(path "/7d538877-0678-43a6-9ffb-51bd93bb2c44"
 					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 121.92 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11249a15-e33f-4d2e-a7ed-df12d4b0f5b9")
+		(property "Reference" "R1"
+			(at 120.65 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 124.46 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 121.92 112.268 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 121.92 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e77e032-ea72-48f7-86d6-10ce52d9f5c5")
+		)
+		(pin "2"
+			(uuid "ac456b45-8767-41d6-9793-d159c92fe917")
+		)
+		(instances
+			(project "hw-covers"
+				(path "/7d538877-0678-43a6-9ffb-51bd93bb2c44"
+					(reference "R1")
 					(unit 1)
 				)
 			)

@@ -74,16 +74,35 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ### [Unreleased]
 
+### [2.1.0] - 2026-03-09
+
+Fix some 2.0.0 rev issues
+
+#### Added
+
+* Add RC-snubbers values
+* Add IR base resistor
+* Add via stiching in regulator for power disipation
+
+#### Fixed
+
+* Fix L/N label text
+* Isolate 230V AC lines from 5V DC lines
+
+#### Changed
+
+* Change relays transistor base from 1k to 470ohm
+
 ### [2.0.0] - 2026-03-08
 
 Solved relay issue
 
-#### Add
+#### Added
 
 * Add RC snubbers
 * Add schematic hierarchicals sheets
 
-#### Fix
+#### Fixed
 
 * Change relays from 5A to 10A
 * Change relay config to hardware-safe (output and direction) using form-C relays
@@ -97,11 +116,11 @@ Solved relay issue
 
 Bug fixes
 
-#### Add
+#### Added
 
 * IR LED resistor value calculated: 180ohm
 
-#### Fix
+#### Fixed
 
 * Relay NO/NC bug
 * 1N4448W diode package fixed: SOD-123
@@ -125,4 +144,5 @@ First release
 [Unreleased]: https://github.com/GuilleGonzzalez/hw-covers
 [1.0.0]: https://github.com/GuilleGonzzalez/hw-covers/tree/v1.0.0
 [1.1.0]: https://github.com/GuilleGonzzalez/hw-covers/tree/v1.1.0
-[2.0.0]: https://github.com/GuilleGonzzalez/hw-covers/tree/v0.0.0
+[2.0.0]: https://github.com/GuilleGonzzalez/hw-covers/tree/v2.0.0
+[2.1.0]: https://github.com/GuilleGonzzalez/hw-covers/tree/v2.1.0
